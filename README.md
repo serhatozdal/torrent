@@ -27,7 +27,7 @@ Reading Torrent Files
 use Devristo\Torrent\Torrent;
 
 $torrent = Torrent::fromFile('ubuntu-13.10-desktop-amd64.iso.torrent');
-echo $torrent->getInfoHash(false) // echoes e3811b9539cacff680e418124272177c47477157
+echo $torrent->getInfoHash(false); // echoes e3811b9539cacff680e418124272177c47477157
 
 ```
 
